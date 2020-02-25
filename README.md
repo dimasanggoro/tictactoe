@@ -1,4 +1,4 @@
-# tictactoe
+# tic tac toe
 Tic Tac Toe Game
 
 With Scalable Board , Choose Color Board,
