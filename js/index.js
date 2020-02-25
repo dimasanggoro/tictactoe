@@ -275,7 +275,9 @@ var countClicks = function() {
 			squareClicks[i] = 2;
 		};
 		
-		document.getElementById("options_submit").innerHTML = "Play again?"
+		document.getElementById("options_submit").innerHTML = "Play again?";
+		var bb = document.getElementById("board");
+		bb.classList.add("disabled");
 	};
 };
 
