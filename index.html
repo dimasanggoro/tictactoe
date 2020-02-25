@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe game Dimas</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="options">
+	<p>Options:</p>
+		<form id="options">
+			<label for="boardsize_input">Board Size:</label>
+				<input id="boardsize_input" class="form-control" type="number" min="2" max="50" value="3"></input>
+			<label for="board color">Board Color:</label>
+				<input id="boardcolor_input" class="form-control" type="color" value="#eeeeee"></input>
+				<br>
+				X side :<input id="x_input" type="text" placeholder="i'm X side Input Your Name !" value="" class="form-control" required></input>
+				O side :<input id="o_input" type="text" placeholder="i'm O side Input Your Name !" value="" class="form-control" required></input>	
+		</form>
+			<div class="input-prepend input-append">
+		    <span class="add-on win_text"><strong id="namex">X</strong> won</span><strong id="x_win" class="win_times add-on" style="color: red;">0</strong><span class="add-on">time(s)</span>
+		    </div>
+			<div class="input-prepend input-append">
+		    <span class="add-on win_text"><strong id="nameo">O</strong> won</span><strong id="o_win" class="win_times add-on" style="color: red;">0</strong><span class="add-on">time(s)</span>
+		    </div>
+		    
+		</div>
+		<div style="display: block; margin:0 auto; ">
+		<button id="options_submit" class="button-3d">Play!</button>
+		</div>
+	</div>
+<div id="turnIndicator"></div>
+<div id="game"></div>
+
+  
+
+<script  src="js/index.js"></script>
+
+
+
+</html>
